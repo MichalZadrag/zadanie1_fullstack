@@ -55,3 +55,6 @@ Kod odpowiedzialny za wyświetlenie strony wyświetlającej informacje na podsta
   </script>
 </html>
 ```
+![image](https://user-images.githubusercontent.com/52106343/171735033-385949d0-c1f9-4988-97ba-be9bb58d2ccd.png)
+
+
