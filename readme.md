@@ -17,44 +17,8 @@ Tu coś będzie jeszcze
 
 Kod odpowiedzialny za wyświetlenie strony wyświetlającej informacje na podstawie adresu IP
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Docker task</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <h2 id="ip-header" class="mt-2"></h2>
-      <ul class="list-group">
-        <li id="date-time" class="list-group-item">Second item</li>
-      </ul>
-    </div>
-  </body>
+![code](https://user-images.githubusercontent.com/52106343/171735452-f6258664-354a-4921-b8db-7b9e1c64df1e.png)
 
-  <script>
-    fetch("https://api.ipify.org?format=json")
-      .then((response) => response.json())
-      .then((data) => {
-        let ip = data.ip;
-        document.getElementById("ip-header").innerHTML = `Twoj adres ip: ${ip}`;
-        let Http = new XMLHttpRequest();
-        let url = `https://ipinfo.io/${ip}`;
-        Http.open("GET", url);
-        Http.send();
-        Http.onreadystatechange = (event) => {
-          let htmlResponse = Http.responseText;
-          document.getElementById("date-time").innerHTML = htmlResponse;
-        };
-      });
-  </script>
-</html>
-```
 ![image](https://user-images.githubusercontent.com/52106343/171735033-385949d0-c1f9-4988-97ba-be9bb58d2ccd.png)
 
 
