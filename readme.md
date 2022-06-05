@@ -38,8 +38,9 @@ W celu wyświetlenia danych na podstawie adresu IP została użyta strona ipinfo
 Opracować plik Dockerfile, który pozwoli na zbudowanie obrazu kontenera realizującego funkcjonalność opisaną w punkcie 1. Przy ocenie brane będzie sposób opracowania tego pliku (dobór obrazu bazowego, wieloetapowe budowanie obrazu, ewentualne wykorzystanie warstwy scratch, optymalizacja pod kątem funkcjonowania cache-a w procesie budowania). Dockerfile powinien również zawierać informację o autorze tego pliku (ponownie imię i nazwisko studenta). 
 
 ![code](https://user-images.githubusercontent.com/52106343/172064925-a5bb8235-61c6-4636-8c7b-746c6adf1995.png)
+![code5](https://user-images.githubusercontent.com/52106343/172069472-b5ee570e-8b77-40b7-a034-64752fed63b4.png)
 
-![code1](https://user-images.githubusercontent.com/52106343/172064929-81dc939c-8388-4e4a-a91d-0ef92b8a3a29.png)
+
 
 ### Część 3
 Należy podać polecenia niezbędne do:
