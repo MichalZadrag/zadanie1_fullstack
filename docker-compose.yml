@@ -6,5 +6,6 @@ services:
       command: sh -c "echo `date` && echo 'Michał Zadrąg port 3000 ' && node server.js"
       volumes:
         - .:/code/
+        - /code/node_modules
       ports:
         - "3000:3000"
