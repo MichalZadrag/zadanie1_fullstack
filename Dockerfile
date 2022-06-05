@@ -1,4 +1,6 @@
-FROM node:16
+# Zadrąg Michał
+
+FROM node:alpine
 
 WORKDIR /code
 

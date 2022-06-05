@@ -3,7 +3,7 @@ version: '3.9'
 services:
   web:
       build: .
-      command: sh -c "echo 'Michał Zadrąg port 3000' && node server.js"
+      command: sh -c "echo `date` && echo 'Michał Zadrąg port 3000 ' && node server.js"
       volumes:
         - .:/code/
       ports:
