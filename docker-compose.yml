@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  web:
+      build: .
+      command: sh -c "echo 'Michał Zadrąg, port 3000'"
+      volumes:
+        - .:/code
+      ports:
+        - "30:3000"
