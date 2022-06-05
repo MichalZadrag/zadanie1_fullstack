@@ -87,7 +87,6 @@ W celu wykonania tego zadania należało utworzyć plik konfiguracyjny w katalog
 ### Dodatkowo z ustawieniem eksportu cache i potwierdzenie poprawności działania tej metody
 
 
-### Z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem
-konfiguracji GitHub Container Registry
+### Z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem konfiguracji GitHub Container Registry
 
 
