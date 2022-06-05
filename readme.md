@@ -82,7 +82,9 @@ docker buildx build -t  michalzadrag/fullstack-zad1 --platform linux/arm/v7,linu
 ---
 ### Z wykorzystaniem GitHubActions
 W celu wykonania tego zadania należało utworzyć plik konfiguracyjny w katalogi .github/workflows
----![code3](https://user-images.githubusercontent.com/52106343/172067631-ac2bd577-3abc-40be-875f-5f1829a021f9.png)
+![code3](https://user-images.githubusercontent.com/52106343/172067631-ac2bd577-3abc-40be-875f-5f1829a021f9.png)
+![image](https://user-images.githubusercontent.com/52106343/172067719-286d4964-4365-4da3-a6de-403666514716.png)
+
 
 ### Dodatkowo z ustawieniem eksportu cache i potwierdzenie poprawności działania tej metody
 
