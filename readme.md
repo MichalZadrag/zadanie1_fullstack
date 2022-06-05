@@ -1,9 +1,7 @@
 ## PROGRAMOWANIE FULL-STACK W CHMURACH OBLICZENIOWYCH
 
-### Zadanie 1
-
+## Zadanie 1
 ---
-
 ### Część 1
 
 Proszę napisać program serwera (dowolny język programowania), który realizować będzie następującą funkcjonalność:
@@ -79,5 +77,17 @@ docker buildx build -t  michalzadrag/fullstack-zad1 --platform linux/arm/v7,linu
 ![image](https://user-images.githubusercontent.com/52106343/172066394-3ab22acb-0ad1-4783-a9e0-66ed2049f515.png)
 <br />
 **Dockerhub** https://hub.docker.com/repository/docker/michalzadrag/fullstack-zad1 
+
+## Część dodatkowa
+---
+### Z wykorzystaniem GitHubActions
+W celu wykonania tego zadania należało utworzyć plik konfiguracyjny w katalogi .github/workflows
+---![code3](https://user-images.githubusercontent.com/52106343/172067631-ac2bd577-3abc-40be-875f-5f1829a021f9.png)
+
+### Dodatkowo z ustawieniem eksportu cache i potwierdzenie poprawności działania tej metody
+
+
+### Z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem
+konfiguracji GitHub Container Registry
 
 
