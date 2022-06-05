@@ -67,5 +67,17 @@ Należy podać polecenia niezbędne do:
     ![image](https://user-images.githubusercontent.com/52106343/172065382-6b052dc7-5906-43a2-a013-79e420493b81.png)
 
 
+### Część 4
+Zbudować obrazy kontenera z aplikacją opracowaną w punkcie nr 1, które będą pracował na architekturach: **linux/arm/v7**, **linux/arm64/v8** oraz **linux/amd64**. Obrazy te należy przesłać do swojego repozytorium na DockerHub. W sprawozdaniu należy podać wykorzystane instrukcje wraz z wynikiem ich działania I ewentualnymi komentarzami.
+
+Użyta komenda:
+```bash
+docker buildx build -t  michalzadrag/fullstack-zad1 --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
+```
+
+![image](https://user-images.githubusercontent.com/52106343/172066250-ad4df96f-b3d4-4d34-9e17-aa60a7e561e6.png)
+![image](https://user-images.githubusercontent.com/52106343/172066394-3ab22acb-0ad1-4783-a9e0-66ed2049f515.png)
+<br />
+**Dockerhub** https://hub.docker.com/repository/docker/michalzadrag/fullstack-zad1 
 
 
