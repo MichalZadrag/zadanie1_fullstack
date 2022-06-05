@@ -91,4 +91,12 @@ W celu wykonania tego zadania należało utworzyć plik konfiguracyjny w katalog
 
 ### Z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem konfiguracji GitHub Container Registry
 
+Wykorzystano GitHub Container Registry
+
+Konfiguracja nie sprawiała problemów, należało tylko wygenerować token (analogicznie jak przy dockerhubie) i dodać odpowiedni plik ghcr.yaml do foderu .github/actions
+![code4](https://user-images.githubusercontent.com/52106343/172068504-e6a417fa-2fc4-48f1-bd11-621cd2214d1f.png)
+![image](https://user-images.githubusercontent.com/52106343/172068523-8214ccf3-e049-4457-a90d-fd6f79df1aa9.png)
+
+
+
 
